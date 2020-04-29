@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+#zuul:
+#  routes:
+#    order:
+#      url: http://localhost:8094
+#    customer:
+#      url: http://localhost:8092
+#    product:
+#      url: http://localhost:8091
+#    shopping:
+#      url: http://localhost:8093
+
+zuul:
+  routes:
+    order:
+      serviceId: OrderService
+    customer:
+      serviceId: CustomersService
+    product:
+      serviceId: ProductsService
+    shopping:
+      serviceId: ShoppingService
+
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+  sleuth:
+    sampler:
+      probability: 1

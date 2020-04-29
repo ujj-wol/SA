@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: info
+    org: info
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
+    registerWithEureka: true
+    fetchRegistry: true
