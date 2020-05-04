@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sa.lab11</groupId>
-    <artifactId>reactivestockservice</artifactId>
+    <artifactId>reactivestockclient</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>reactivestockservice</name>
+    <name>reactivestockclient</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
